@@ -1,11 +1,52 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include <stdlib.h>
+#include <random>
+#include <ctime>
+#include <cassert>
 #include "dicebox.h"
 #include "informaltesting.h"
 
-using std::cout;
-using std::endl;
+using namespace std;
+
+
+struct PRNG {
+    std::mt19937 engine;
+};
+
+
+void Generator(PRNG& generator) {
+    std::random_device device;
+    generator.engine.seed(device());
+}
+
+unsigned random_int(PRNG& generator, unsigned min, unsigned max) {
+    assert(min < max);
+    std::uniform_int_distribution<unsigned> distribution(min, max);
+    return distribution(generator.engine);
+}
+
+float random_float(PRNG& generator, float min, float max) {
+    assert(min < max);
+    std::uniform_real_distribution<float> distribution(min, max);
+    return distribution(generator.engine);
+}
+
+size_t random_index(PRNG& generator, size_t size) {
+    std::uniform_int_distribution<size_t> distribution(0, size-1);
+    return distribution(generator.engine);
+}
+
+string random_race(PRNG& generator) {
+    vector<string> races = {"dwarf", "elf", "halfing", "human", "dragonborn", "gnome", "half-elf", "half-ork", "tiefling"};
+    return races[random_index(generator, races.size())];
+}
 
 int main()
 {
-
+    PRNG generator;
+    Generator(generator);
+    string race = random_race(generator);
+    cout << race << endl;
 }
