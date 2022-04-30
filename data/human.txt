@@ -1,0 +1,26 @@
+subraces: { damaran illuskan mulan rashemi calishite chondatan shou tethyrian turami }
+min_age: 16
+adult_age: 20
+max_age: 80
+min_height: 5
+max_height: 6
+average_height: 40
+
+damaran_male_names { Bar, Fadei, Glar, Grigor,Igan, Ivor, Kosef, MivaI, Orei, Pavel, Sergor; }
+damaran_female_names { Alethra, Kara, Katernin, Mara, Natali, Olma, Tana, Zora; }
+damaran_family_names { Bersk, Chernin, Dotsk, Kulenov, Marsk, Nemetsk, Shemov, Starag  }
+illuskan_male_names { Ander, Blath, Bran, Frath,Geth, Lander, Luth, Malcer, Stor, Taman, Urth }
+illuskan_female_names { Amafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra; }
+illuskan_family_names { Brightwood, Helder Hornraven, Lackman, Stormwind. Windrivver }
+mulan_male_names { Aoth, Bareris, Ehput-Ki, Kethoth, Mumed, Ramas, So-Kehur, Thazar-De, Urhur }
+mulan_female_names { Arizima, Chathi, Nephis, Nulara, Murithi, Sefris, Thola, Umara, Zolis }
+mulan_family_names { Ankhalab, Anskuld, Fezim, Hahpet, Nathandem, Sepret, Uuthrakt }
+rashemi_male_names { Borivik, Faurgar,jandar, Kanithar, Madislak, Ralmevik, Shaumar, Vladislak }
+rashemi_female_names { Fyevarra, Hulmarra, Immith, Imzel, Navarra, Shevarra, Tammith, Yuldra }
+rashemi_family_names { Chergoba, Dyernina, Iltazyara, Murnyethara, Stayanoga, Ulmokina  }
+shou_male_names { An, Chen, Chi, Fai, jiang, Jun, Lian, Long, Meng, On, Shan, Shui, Wen  }
+shou_female_names { Bai, Chao,jia, Lei, Mei, Qiao, Shui, Tai }
+shou_family_names { Chien, Huang, Kao, Kung, Lao, Ling, Mei, Pin, Shin, Sum, Tan, Wan }
+turami_male_names { Anton, Diero. Marcon, Pieron, Rimardo, Romero, Salazar, Umbero }
+turami_female_names { Balama, Dona, Faila,jalana, Luisa, Marta, Quara, Selise, Vonda }
+turami_family_names { Agosto, Astorio, Calabra, Domine, Falone, Marivaldi, Pisacar, Ramondo  }

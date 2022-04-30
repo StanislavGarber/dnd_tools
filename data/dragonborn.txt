@@ -1,0 +1,21 @@
+min_age: 16
+adult_age: 20
+max_age: 180
+min_height: 5
+max_height: 6
+average_weight: 140
+
+
+child_names: { Climber. Earbender. Leaper. Pious Shieldbiter. Zealous }
+male_names: { Arjhan. Balasar. Bharash, Donaar, Ghesh.
+              Heskan, Kriv. Medrash. Mehen. Nadarr. Pandjed,
+              Patrin, Rhogar, Shamash. Shedinn. Tarhun. Torinn }
+female_names: { Akra. Biri. Daar. Farideh, Harann.
+                HaviJar, Jheri, Kava, Korinn. Mishann, NaJa, Perra,
+                Raiann. Sora. Surina. Thava, Uadjit }
+clan_names: { Clethtinthiallor. Daardendrian. Delmirev.
+              Drachedandion. Fenkenkabradon. Kepeshkmolik.
+              Kerrhylon. Kimbatuul. Linxakasendalor. Myastan.
+              Nemmonis. Norixius. Ophinshtalajiir. Prexijandilin.
+              Shestendeliath. Turnuroth. Verthisathurgiesh. Yarjerit  }
+

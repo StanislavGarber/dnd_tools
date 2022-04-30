@@ -1,0 +1,20 @@
+subraces: { high elf, dark elf, wood elf } 
+min_age: 16
+adult_age: 100
+max_age: 700
+min_height: 5
+max_height: 6
+average_weight: 123
+child_names: { Ara, Bryn, Del, Eryn, Faen, Innil, Lael, Mella, Naill, Naeris, Phann, Rael, Rinn, 
+             Sai, Syllin, Thia, Vali } 
+male_names: { Adran Aelar Aramil Arannis Aust Beiro Berrian Carrie Enialis Erdan Erevan
+            Galinndan Hadarai, Heian, Himo. Immeral, Ivellios, Laucian, Mindartis, Paelias, 
+            Peren, Quarion, Riardon, Rolen, Soveliss, Thamior, Tharivol, Theren, Varis }
+female_names: { Adrie, Althaea, Anastrianna, Andraste, Antinua, Bethrynna, Birel, Caelynn, Orusilia, 
+              Enna, Felosial, lelenia,jelenneth, Keyleth, Leshanna, Lia, Meriele, Mialee, Naivara, 
+              Quelenna, Quillathe, Sariel, Shanairra, Shava, Silaqui, Theirastra, Thia, Vadania, 
+              Valanthe, Xanaphia }
+family_names: { Amakiir (Gemflower), Amastacia (Starflower), Galanodel (Moonwhisper), 
+              Holimion (Oiamonddew), IIphelkiir (Gemblossom), Liadon (Silverfrond), 
+              Meliamne (Oakenheel), Nailo (Nightbreeze), Siannodel (Moonbrook), 
+              Xiloscient (Goldpetal) }

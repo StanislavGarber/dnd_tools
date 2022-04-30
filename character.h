@@ -30,6 +30,7 @@ public:
     void set_random_size();
     void set_random_sex();
     void about();
+
 };
 
 

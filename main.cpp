@@ -9,6 +9,7 @@
 #include "dicebox.h"
 #include "utils.h"
 #include "character.h"
+#include "race.h"
 
 
 using namespace std;
@@ -30,6 +31,7 @@ void test_names_file_reading() {
     //file_handling::names_to_vector(dwarf_names, path);
     //for (string s: dwarf_names) cout << s << endl;
 }
+
 
 void skip_to_int()
 {
@@ -82,8 +84,22 @@ int get_int(int low, int high, string menu_text) {
 }
 
 
+void read_race_data(Race& race) {
+    string iname = "/home/stan/dnd_tools/data/gnome.txt";
+    ifstream ist {iname};
+    ist >> race;
+}
+
 int main()
 {
-    string menu_text = "what would you like to do?\n1: create random character\n2: manually build character \n3 exit";
-    get_int(1, 3, menu_text);
+    // string menu_text = "what would you like to do?\n1: create random character\n2: manually build character \n3 exit";
+    // get_int(1, 3, menu_text);
+    Race dwarf("dwarf");
+    Race elf("elf");
+    Race halfing("halfing");
+    Race human("human");
+    Race dragonborn("dragonborn");
+    Race gnome("gnome");
+    read_race_data(gnome);
+    gnome.print_data();
 }

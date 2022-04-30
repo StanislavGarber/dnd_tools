@@ -1,0 +1,15 @@
+min_age: 16
+adult_age: 20
+max_age: 80
+min_height: 5
+max_height: 6
+average_height: 40
+male_names: { Male Names: Alton, Ander, Cade, Corrin, Eldon, Errich,
+              Finnan, Garret, Lindal, Lyle, Merric, Milo, Osborn,
+              Perrin, Reed, Roscoe, Wellby }
+female_names: { Andry, Bree, Callie, Cora, Euphemia,
+                jillian, Kithri, Lavinia, Lidda, Merla, Nedda, Paela,
+                Portia, Seraphina, Shaena, Trym, Vani, Verna }
+family_names: { Brushgather, Goodbarrel, Greenbottle,
+                High-hill, Hilltopple, Leagallow, Tealeaf, Thorngage,
+                Tosscobble, Underbough }

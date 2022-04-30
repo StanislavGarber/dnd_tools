@@ -1,0 +1,15 @@
+subraces: { hill_dwarf mountain_dwarf }
+min_age: 16
+adult_age: 50
+max_age: 350
+min_height: 4
+max_height: 5
+average_weight: 150
+male_names: { Adrik, Alberich, Baern, Barendd, Brottor, Bruenor, Oain, Oarrak, Oelg, Eberk, Einkil, 
+            Fargrim, Flint, Gardain, Harbek, Kildrak, Morgran, Orsik, Oskar, Rangrim, Rurik, Taklinn, 
+            Thoradin, Thorin, Tordek, Traubon, Travok, Ulfgar, Veit, Vondal }
+female_names: { Amber, Artin, Audhild, Bardryn, Oagnal, Oiesa, Eldeth, Falkrunn, Finellen, Gunnloda,
+              Gurdis, Helja, Hlin, Kathra, Kristryd, lide, Liftrasa, Mardred, Riswynn, Sannl, 
+              Torbera, Torgga, Vistra }
+clan_names: { Balderk, Battlehammer, Brawnanvil, Oankil, Fireforge, Frostbeard, Gorunn, Holderhek, 
+            Ironfist, Loderr, Lutgehr, Rumnaheim, Strakeln, Torunn, Ungart }

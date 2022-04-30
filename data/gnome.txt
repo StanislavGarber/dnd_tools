@@ -1,0 +1,20 @@
+subraces: { forest_gnome, rock_gnome }
+min_age: 16
+adult_age: 80
+max_age: 500
+min_height: 3
+max_height: 4
+average_weight: 42
+male_names: { Alston, Alvyn, Boddynock, Brocc, Burgell,
+              Dimble, Eldon, Erky, Fonkin, Frug, Gerbo, Gimble,
+              Glim,Jebeddo, Kellen, Namfoodle, Orryn, Roondar,
+              Seebo, Sindri, Warryn, Wrenn, Zook  }
+female_names: { Bimpnollin, Breena, Caramip, Carlin,
+                Donella, Duvamil, ElIa, ElIyjobell, ElIywick, Lilli,
+                Loopmottin, Lorilla, Mardnab, Nissa, Nyx, Oda, Orla,
+                Roywyn, Shamil, Tana, Waywocket, Zanna  }
+clan_names: { Beren, Daergel, Folkor, Garrick, Nackle,
+              Murnig, Ningel, Raulnor, Scheppen, Timbers, Turen  }
+nicknames: { Aleslosh, Ashhearlh, Badger, Cloak,
+             Doublelock, Filchbatler, Fnipper, Ku, Nim, Oneshoe,
+             Pock, Sparklegem, Stumbleduck  }
