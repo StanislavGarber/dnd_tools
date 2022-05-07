@@ -66,6 +66,10 @@ void Race::print_family_names() {
     print_string_vector_data("family_names", family_names);
 }
 
+void Race::print_virtue_names() {
+    print_string_vector_data("virtue_names", virtue_names);
+}
+
 void Race::print_human_names() {
     for (const auto &item : human_names) {
         vector<string> names = item.second;
@@ -88,9 +92,10 @@ void Race::print_data() {
     print_max_height();
     print_average_weight();
 
-    if (race_name == "dwarf" || race_name == "elf" || race_name == "gnome") print_subraces();
-    if (race_name != "human") print_male_names();
-    if (race_name != "human") print_female_names();
+    if (race_name == "dwarf" || race_name == "elf" || race_name == "gnome" || race_name == "human") print_subraces();
+    if (race_name != "human" && race_name != "half_elf") print_male_names();
+    if (race_name != "human" && race_name != "half_elf") print_female_names();
+    if(race_name == "tiefling") print_virtue_names();
     if(race_name == "dwarf" || race_name == "dragonborn" || race_name == "gnome") print_clan_names();
     if(race_name == "elf" || race_name == "halfing") print_family_names();
     if(race_name == "elf" || race_name == "dragonborn") print_child_names();
@@ -173,11 +178,17 @@ istream& operator >> (istream& is, Race& rd)
     Race::read_int(is, rd.average_weight, "average_weight");
 
     if(rd.race_name == "human") Race::read_human_names(is, rd.human_names, "human_names");
-    if(rd.race_name == "elf" || rd.race_name == "dragonborn") Race::read_strings(is, rd.child_names, "child_names");
-    if (rd.race_name != "human") Race::read_strings(is, rd.male_names, "male_names");
-    if (rd.race_name != "human") Race::read_strings(is, rd.female_names, "female_names");
-    if(rd.race_name == "dwarf" || rd.race_name == "dragonborn" || rd.race_name == "gnome") Race::read_strings(is, rd.clan_names, "clan_names");
-    if(rd.race_name == "elf" || rd.race_name == "halfing") Race::read_strings(is, rd.family_names, "family_names");
+    if(rd.race_name == "elf" || rd.race_name == "dragonborn")
+        Race::read_strings(is, rd.child_names, "child_names");
+    if (rd.race_name != "human" && rd.race_name != "half_elf")
+        Race::read_strings(is, rd.male_names, "male_names");
+    if (rd.race_name != "human" && rd.race_name != "half_elf")
+        Race::read_strings(is, rd.female_names, "female_names");
+    if (rd.race_name == "tiefling") Race::read_strings(is, rd.virtue_names, "virtue_names");
+    if(rd.race_name == "dwarf" || rd.race_name == "dragonborn" || rd.race_name == "gnome")
+        Race::read_strings(is, rd.clan_names, "clan_names");
+    if(rd.race_name == "elf" || rd.race_name == "halfing")
+        Race::read_strings(is, rd.family_names, "family_names");
     if(rd.race_name == "gnome") Race::read_strings(is, rd.nicknames, "nicknames");
 }
 

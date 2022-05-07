@@ -1,0 +1,13 @@
+min_age: 16
+adult_age: 20
+max_age: 100
+min_height: 5
+max_height: 6
+average_weight: 40
+male_names: { Akmenos, Amnon, Barakas, Damakos, Ekemon, lados, Kairon. Leucis, 
+              Melech, Mordai, Morthos. Pelaios, Skamos. Therai }
+female_names: { Akta, Anakis, Bryseis, Criella. Damaia. Ea. Kallista. Lerissa.
+                Makaria. Nemeia, Orianna. Phelaia. Rieta }
+virtue_names: { Art. Carrion, Chant, Creed, Despair, Excellence, Fear, Glory,
+                Hope, Ideal. Music. Nowhere. Open, Poetry, Quest. Random.
+                Reverence, Sorrow. Temerily, Torment, Weary  }

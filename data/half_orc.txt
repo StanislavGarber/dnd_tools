@@ -1,0 +1,8 @@
+min_age: 16
+adult_age: 20
+max_age: 180
+min_height: 6
+max_height: 7
+average_weight: 215
+male_names: { Dench, Feng, Gell, Henk, Holg, Imsh, Keth, Krusk, Mhurren, Ront, Shump, Thokk }
+female_names: { Baggi, Emen, Engong, Kansif, Myev, Neega, Ovak, Ownka, Shaunta, Sutha, Vola, Volen, Yevelda }

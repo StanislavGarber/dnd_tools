@@ -85,7 +85,7 @@ int get_int(int low, int high, string menu_text) {
 
 
 void read_race_data(Race& race) {
-    string iname = "/home/stan/dnd_tools/data/gnome.txt";
+    string iname = "";
     ifstream ist {iname};
     ist >> race;
 }
@@ -100,6 +100,7 @@ int main()
     Race human("human");
     Race dragonborn("dragonborn");
     Race gnome("gnome");
-    read_race_data(gnome);
-    gnome.print_data();
+    Race half_elf("half_elf");
+    Race half_ork("half_ork");
+    Race tiefling("tiefling");
 }

@@ -23,6 +23,7 @@ public:
     vector<string> child_names {};
     vector<string> family_names {};
     vector<string> nicknames {};
+    vector<string> virtue_names {};
 
     map<string, vector<string>> human_names;
 
@@ -57,6 +58,7 @@ public:
     void print_family_names();
     void print_human_names();
     void print_nicknames();
+    void print_virtue_names();
 
     void print_data(); // prints all data about race
 
